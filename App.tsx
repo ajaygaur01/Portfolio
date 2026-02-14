@@ -536,7 +536,7 @@ export default function App() {
   const fullStackProjects = PROJECTS.filter(p => p.category === 'Full Stack');
   const devOpsProjects = PROJECTS.filter(p => p.category === 'DevOps');
   const istTime = useISTClock();
-  const profileImg = "https://res.cloudinary.com/djfgukmxo/image/upload/v1771098422/Screenshot_2026-02-15_005733_rrd4bk.png";
+  const profileImg = "https://res.cloudinary.com/djfgukmxo/image/upload/v1771107157/WhatsApp_Image_2026-02-15_at_3.39.58_AM_qgm4ka.jpg";
   const resumeLink = "https://drive.google.com/file/d/1HYO5__hKuSfuzNxQ1YqyLtMnmPkNFDO2/view?usp=sharing";
 
   return (
