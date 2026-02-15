@@ -537,7 +537,7 @@ export default function App() {
   const devOpsProjects = PROJECTS.filter(p => p.category === 'DevOps');
   const istTime = useISTClock();
   const profileImg = "https://res.cloudinary.com/djfgukmxo/image/upload/v1771107157/WhatsApp_Image_2026-02-15_at_3.39.58_AM_qgm4ka.jpg";
-  const resumeLink = "https://drive.google.com/file/d/1HYO5__hKuSfuzNxQ1YqyLtMnmPkNFDO2/view?usp=sharing";
+  const resumeLink = "https://drive.google.com/file/d/15CbdQskB8s1OyKgF9HR45TuK2kS7xcAH/view?usp=sharing";
 
   return (
     <div className="min-h-screen bg-black text-[#E5E7EB] pb-24 selection:bg-emerald-500/30">
