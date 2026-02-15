@@ -4,14 +4,14 @@ export const PROJECTS: Project[] = [
   // Full Stack Projects
   {
     id: 'fs-1',
-    title: 'Event-Driven Automation Engine',
+    title: 'Event-Driven Automation Platform',
     description: 'A microservices-based automation platform using a microservices architecture for distributed task execution.',
     techStack: ['Kafka', 'Next.js', 'PostgreSQL', 'Prisma', 'Solana', 'Docker', 'Express'],
     outcomes: [
       'Implemented the Outbox Pattern with PostgreSQL and Kafka to ensure reliable, at-least-once event processing.',
       'Designed microservices (Hooks, Processor, Worker) for clean decoupling and horizontal scalability.'
     ],
-    githubUrl: 'https://github.com/example/event-automation',
+    githubUrl: 'https://github.com/ajaygaur01/Zapier',
     category: 'Full Stack'
   },
   {
@@ -36,7 +36,7 @@ export const PROJECTS: Project[] = [
       'Built an automated monitoring system with zero manual intervention using Ansible and Node Exporter.',
       'Enabled automatic VM discovery and scalable visualization using Prometheus and Grafana.'
     ],
-    githubUrl: 'https://github.com/example/vm-monitor',
+    githubUrl: 'https://github.com/ajaygaur01/vm-monitoring',
     category: 'DevOps'
   },
   {
@@ -48,7 +48,7 @@ export const PROJECTS: Project[] = [
       'Deployed a full-stack Dockerized application on Amazon EKS with ALB Ingress and HPA.',
       'Implemented Jenkins CI with SonarQube and Trivy scans for high-security production deployments.'
     ],
-    githubUrl: 'https://github.com/example/eks-platform',
+    githubUrl: 'https://github.com/ajaygaur01/Full-Stack-Blog-app',
     category: 'DevOps'
   },
   {
@@ -60,7 +60,7 @@ export const PROJECTS: Project[] = [
       'Architected a resilient environment featuring 5 services and 3 distributed databases with deep observability.',
       'Leveraged Canary deployments to allow for data-driven rollouts and automated rollbacks, reducing deployment risk.'
     ],
-    githubUrl: 'https://github.com/example/istio-mesh',
+    githubUrl: 'https://github.com/ajaygaur01/RetailStoreDeployment',
     category: 'DevOps'
   }
 ];
